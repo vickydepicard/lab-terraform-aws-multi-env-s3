@@ -1,5 +1,12 @@
 # 🚀 Terraform AWS S3 Infrastructure – Environnements Dev/Test/Prod
 
+[![Deploy to AWS - DEV](https://github.com/vickydepicard/lab-terraform-aws-multi-env-s3/actions/workflows/deploy-dev.yml/badge.svg?branch=dev)](https://github.com/vickydepicard/lab-terraform-aws-multi-env-s3/actions/workflows/deploy-dev.yml)
+
+[![Deploy to AWS - DEV](https://github.com/vickydepicard/lab-terraform-aws-multi-env-s3/actions/workflows/deploy-dev.yml/badge.svg?branch=test)](https://github.com/vickydepicard/lab-terraform-aws-multi-env-s3/actions/workflows/deploy-dev.yml)
+
+[![Deploy to AWS - DEV](https://github.com/vickydepicard/lab-terraform-aws-multi-env-s3/actions/workflows/deploy-dev.yml/badge.svg?branch=main)](https://github.com/vickydepicard/lab-terraform-aws-multi-env-s3/actions/workflows/deploy-dev.yml)
+
+
 Ce projet met en œuvre **Terraform** pour déployer dynamiquement des buckets **Amazon S3** pour trois environnements : `dev`, `test` et `prod`, avec une **architecture modulaire** et un pipeline **CI/CD GitHub Actions**.
 
 ---
