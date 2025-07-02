@@ -8,6 +8,10 @@ Ce projet met en œuvre **Terraform** pour déployer dynamiquement des buckets *
 
 <img width="302" alt="image" src="https://github.com/user-attachments/assets/20be4a3d-31e6-484d-8e0f-3f40f627ad12" />
 
+<img width="718" alt="image" src="https://github.com/user-attachments/assets/b7eec1c7-9746-46fe-98a0-e0053bcc2f03" />
+
+<img width="918" alt="image" src="https://github.com/user-attachments/assets/28fd0062-d676-4e6a-a800-405df214b3a8" />
+
 
 
 ---
