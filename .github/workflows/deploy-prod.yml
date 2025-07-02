@@ -1,4 +1,4 @@
-name: Deploy to AWS - DEV
+name: Deploy to AWS - PROD
 
 on:
   push:
