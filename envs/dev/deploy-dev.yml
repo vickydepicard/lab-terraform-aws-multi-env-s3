@@ -3,7 +3,7 @@ name: Deploy to AWS - DEV
 on:
   push:
     paths:
-      - 'dev/**'
+      - 'envs/dev/**'
     branches:
       - main
 
@@ -27,12 +27,12 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
-        working-directory: dev
+        working-directory: envs/dev
 
       - name: Terraform Plan
         run: terraform plan -var-file="terraform.tfvars"
-        working-directory: dev
+        working-directory: envs/dev
 
       - name: Terraform Apply
         run: terraform apply -auto-approve -var-file="terraform.tfvars"
-        working-directory: dev
+        working-directory: envs/dev
